@@ -1,0 +1,15 @@
+.listContainer {
+	ul {
+		padding: 0;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-row-gap: 30px;
+		.listItem {
+			grid-column: span 4;
+			list-style: none;
+			border-radius: 15px;
+			box-shadow: 5px 5px 10px;
+		}
+	}
+}
